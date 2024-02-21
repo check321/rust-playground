@@ -7,27 +7,27 @@ edition = "2021"
 
 [[bin]]
 name="tokio-mutex"
-path="src/tokio_mutex.rs"
+path= "src/tokio_mutex.rs"
 
 [[bin]]
 name="tokio-rwlock"
-path="src/tokio_rwlock.rs"
+path= "src/tokio_rwlock.rs"
 
 [[bin]]
 name="tokio-mpsc"
-path="src/tokio_mpsc.rs"
+path= "src/tokio_mpsc.rs"
 
 [[bin]]
 name="tokio-mpsc-oneshot"
-path="src/tokio_mpsc_oneshot.rs"
+path= "src/tokio_mpsc_oneshot.rs"
 
 [[bin]]
 name="tokio-block-on"
-path="src/tokio_block_on.rs"
+path= "src/tokio_block_on.rs"
 
 [[bin]]
 name="err-io-read"
-path="src/err/err_io_read.rs"
+path= "src/err/err_io_read.rs"
 
 [[bin]]
 name = "macro_add"

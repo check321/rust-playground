@@ -26,7 +26,7 @@ fn main() {
 // question mark version.
 fn read_file() -> Result<String, String> {
 
-    let mut file = File::open("src/temp/simple_file_1.txt").map_err(|err| format!("Error opening file: {}", err))?;
+    let mut file = File::open("../temp/simple_file_1.txt").map_err(|err| format!("Error opening file: {}", err))?;
     let mut content = String::new();
     file.read_to_string(&mut content)
         .map_err(|err| format!("Error reading file: {}", err))?;
