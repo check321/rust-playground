@@ -1,0 +1,25 @@
+[package]
+name = "nom-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name="parser_0"
+path = "src/parser_0.rs"
+
+[[bin]]
+name = "parser_1"
+path = "src/parser_1.rs"
+
+[[bin]]
+name = "parser_coordinate"
+path = "src/parser_coordinate.rs"
+
+[[bin]]
+name = "parser_16_color"
+path = "src/parser_16digit_color.rs"
+
+[dependencies]
+nom = "7.1.3"
