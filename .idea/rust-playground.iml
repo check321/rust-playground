@@ -6,11 +6,13 @@
       <sourceFolder url="file://$MODULE_DIR$/axum-todo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/basic/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/nom-app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/unsafe-app/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/axum-app/target" />
       <excludeFolder url="file://$MODULE_DIR$/axum-todo/target" />
       <excludeFolder url="file://$MODULE_DIR$/basic/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/nom-app/target" />
+      <excludeFolder url="file://$MODULE_DIR$/unsafe-app/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

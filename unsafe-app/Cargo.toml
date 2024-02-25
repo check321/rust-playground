@@ -1,0 +1,19 @@
+[package]
+name = "unsafe-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "static_attr"
+path = "src/static_attr.rs"
+
+[[bin]]
+name = "raw_pointer"
+path = "src/raw_pointer.rs"
+
+[[bin]]
+name = "slice_vec"
+path = "src/slice_vec_unsafe.rs"
+[dependencies]
